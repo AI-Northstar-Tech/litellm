@@ -261,6 +261,7 @@ async def acompletion(
             or custom_llm_provider == "perplexity"
             or custom_llm_provider == "text-completion-openai"
             or custom_llm_provider == "huggingface"
+            or custom_llm_provider == "huggingface_local"
             or custom_llm_provider == "ollama"
             or custom_llm_provider == "ollama_chat"
             or custom_llm_provider == "vertex_ai"
